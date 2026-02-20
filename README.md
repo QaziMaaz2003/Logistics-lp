@@ -26,14 +26,15 @@ Open [http://localhost:5173](http://localhost:5173).
 ## Structure
 
 ```
-logistics_Web/
-├── public/          # Static assets
+logistics-lp/
+├── public/           # Static assets
 ├── src/
 │   ├── components/   # React components
-│   ├── App.jsx
-│   ├── main.jsx
+│   ├── App.tsx
+│   ├── main.tsx
 │   └── index.css
 ├── index.html
 ├── package.json
-└── vite.config.js
+├── tsconfig.json
+└── vite.config.ts
 ```
